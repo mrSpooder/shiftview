@@ -2,9 +2,10 @@
 /* moves clients and or focus circularly right or left through tags */
 //////////////////////////////////////////////////////////////////////
 
+/*
 // add the following 5 lines anywhere in config.def.h
 
-/*#define SHIFT_LEFT              1 << 0
+#define SHIFT_LEFT              1 << 0
 #define SHIFT_RIGHT             1 << 1
 #define SHIFT_TAG		1 << 2
 #define SHIFT_VIEW		1 << 3
@@ -15,7 +16,8 @@
 { MODKEY,           XK_o,  shiftview,      { .ui = SHIFT_RIGHT | SHIFT_VIEW } },
 { MODKEY,           XK_i,   shiftview,      { .ui = SHIFT_LEFT | SHIFT_VIEW} },
 { MODKEY|ShiftMask, XK_o,  shiftview,      { .ui = SHIFT_RIGHT | SHIFT_TAG | SHIFT_VIEW} },
-{ MODKEY|ShiftMask, XK_i,   shiftview,      { .ui = SHIFT_LEFT | SHIFT_TAG | SHIFT_VIEW} },*/
+{ MODKEY|ShiftMask, XK_i,   shiftview,      { .ui = SHIFT_LEFT | SHIFT_TAG | SHIFT_VIEW} },
+*/
 
 void
 shiftview(const Arg *arg) {
